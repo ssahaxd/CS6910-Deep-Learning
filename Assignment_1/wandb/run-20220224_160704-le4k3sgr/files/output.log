@@ -1,0 +1,8 @@
+
+epoch=1, loss=nan, accuracy= 0.10
+/home/sandip/Desktop/DL/Assignment 1/NN/Loss/CategoricalCrossEntropy.py:19: RuntimeWarning: divide by zero encountered in true_divide
+  self.grad_out = - y_true/y_predicted
+/home/sandip/Desktop/DL/Assignment 1/NN/Loss/CategoricalCrossEntropy.py:19: RuntimeWarning: overflow encountered in true_divide
+  self.grad_out = - y_true/y_predicted
+/home/sandip/Desktop/DL/Assignment 1/NN/Loss/CategoricalCrossEntropy.py:19: RuntimeWarning: invalid value encountered in true_divide
+  self.grad_out = - y_true/y_predicted

@@ -1,0 +1,12 @@
+/home/sandip/Desktop/DL/Assignment 1/NN/Loss/CategoricalCrossEntropy.py:19: RuntimeWarning: invalid value encountered in true_divide
+  self.grad_out = - y_true/y_predicted
+epoch=1, loss=nan, accuracy= 0.10
+Validation loss=nan, accuracy= 0.10
+epoch=2, loss=nan, accuracy= 0.10
+Validation loss=nan, accuracy= 0.10
+epoch=3, loss=nan, accuracy= 0.10
+Validation loss=nan, accuracy= 0.10
+epoch=4, loss=nan, accuracy= 0.10
+Validation loss=nan, accuracy= 0.10
+epoch=5, loss=nan, accuracy= 0.10
+Validation loss=nan, accuracy= 0.10

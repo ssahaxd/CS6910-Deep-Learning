@@ -1,0 +1,30 @@
+epoch=1, loss=0.55, accuracy= 0.81
+Validation loss=0.41, accuracy= 0.85
+{'epoch': 1, 'train_loss': 0.5458751680268582, 'train_accuracy': 0.8104080272511849, 'val_loss': 0.41212960358159034, 'val_accuracy': 0.8535}
+epoch=2, loss=0.37, accuracy= 0.87
+Validation loss=0.37, accuracy= 0.87
+{'epoch': 2, 'train_loss': 0.36917271409715036, 'train_accuracy': 0.8677243779620853, 'val_loss': 0.3714404747923145, 'val_accuracy': 0.8668333333333333}
+epoch=3, loss=0.33, accuracy= 0.88
+Validation loss=0.35, accuracy= 0.87
+{'epoch': 3, 'train_loss': 0.33205102741774783, 'train_accuracy': 0.8805353969194313, 'val_loss': 0.34975880050409835, 'val_accuracy': 0.8743333333333333}
+epoch=4, loss=0.31, accuracy= 0.89
+Validation loss=0.34, accuracy= 0.88
+{'epoch': 4, 'train_loss': 0.307276573485036, 'train_accuracy': 0.8898104265402843, 'val_loss': 0.3372067703714298, 'val_accuracy': 0.8768333333333334}
+epoch=5, loss=0.29, accuracy= 0.90
+Validation loss=0.33, accuracy= 0.88
+{'epoch': 5, 'train_loss': 0.288110517029583, 'train_accuracy': 0.8966972748815166, 'val_loss': 0.327632884913369, 'val_accuracy': 0.8811666666666667}
+epoch=6, loss=0.27, accuracy= 0.90
+Validation loss=0.32, accuracy= 0.88
+{'epoch': 6, 'train_loss': 0.27230852582255033, 'train_accuracy': 0.9028250888625592, 'val_loss': 0.32103382459012264, 'val_accuracy': 0.8823333333333333}
+epoch=7, loss=0.26, accuracy= 0.91
+Validation loss=0.32, accuracy= 0.89
+{'epoch': 7, 'train_loss': 0.25873133222354205, 'train_accuracy': 0.9080272511848341, 'val_loss': 0.31655151312895397, 'val_accuracy': 0.8865}
+epoch=8, loss=0.25, accuracy= 0.91
+Validation loss=0.31, accuracy= 0.89
+{'epoch': 8, 'train_loss': 0.24663407128092799, 'train_accuracy': 0.9127110485781991, 'val_loss': 0.31332130388027163, 'val_accuracy': 0.8871666666666667}
+epoch=9, loss=0.24, accuracy= 0.92
+Validation loss=0.31, accuracy= 0.89
+{'epoch': 9, 'train_loss': 0.23570622780059047, 'train_accuracy': 0.9164506812796208, 'val_loss': 0.3108774929099882, 'val_accuracy': 0.8876666666666667}
+epoch=10, loss=0.23, accuracy= 0.92
+Validation loss=0.31, accuracy= 0.89
+{'epoch': 10, 'train_loss': 0.22581000044892785, 'train_accuracy': 0.919431279620853, 'val_loss': 0.3085750510026888, 'val_accuracy': 0.8873333333333333}

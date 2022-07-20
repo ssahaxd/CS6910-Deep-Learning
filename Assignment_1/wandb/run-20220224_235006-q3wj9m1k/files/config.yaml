@@ -1,0 +1,62 @@
+wandb_version: 1
+
+_wandb:
+  desc: null
+  value:
+    cli_version: 0.12.10
+    framework: keras
+    is_jupyter_run: true
+    is_kaggle_kernel: false
+    python_version: 3.9.7
+    start_time: 1645726806
+    t:
+      1:
+      - 2
+      - 3
+      - 5
+      2:
+      - 2
+      - 3
+      - 5
+      3:
+      - 2
+      - 16
+      - 17
+      4: 3.9.7
+      5: 0.12.10
+      8:
+      - 1
+      - 5
+activation:
+  desc: null
+  value: Sigmoid
+batch_size:
+  desc: null
+  value: 64
+epochs:
+  desc: null
+  value: 10
+initializer:
+  desc: null
+  value: he
+learning_rate:
+  desc: null
+  value: 0.001
+loss:
+  desc: null
+  value: CategoricalCrossEntropy
+num_hidden_layers:
+  desc: null
+  value: 3
+num_hidden_neurons:
+  desc: null
+  value: 32
+num_layers:
+  desc: null
+  value: 4
+optimizer:
+  desc: null
+  value: Nadam
+weight_decay:
+  desc: null
+  value: 0

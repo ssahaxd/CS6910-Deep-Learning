@@ -1,0 +1,15 @@
+epoch=1
+training_loss=1.07, training_accuracy= 0.64
+Validation: val_loss=0.76, val_accuracy=0.74
+epoch=2
+training_loss=0.67, training_accuracy= 0.77
+Validation: val_loss=0.63, val_accuracy=0.78
+epoch=3
+training_loss=0.59, training_accuracy= 0.80
+Validation: val_loss=0.58, val_accuracy=0.80
+epoch=4
+training_loss=0.54, training_accuracy= 0.81
+Validation: val_loss=0.54, val_accuracy=0.81
+epoch=5
+training_loss=0.52, training_accuracy= 0.82
+Validation: val_loss=0.52, val_accuracy=0.82

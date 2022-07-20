@@ -1,0 +1,93 @@
+
+epoch=1
+training_loss=0.27, training_accuracy= 0.92
+Validation: val_loss=0.15, val_accuracy=0.96
+epoch=2
+training_loss=0.12, training_accuracy= 0.96
+Validation: val_loss=0.12, val_accuracy=0.96
+epoch=3
+training_loss=0.09, training_accuracy= 0.97
+Validation: val_loss=0.11, val_accuracy=0.97
+epoch=4
+training_loss=0.08, training_accuracy= 0.98
+Validation: val_loss=0.10, val_accuracy=0.97
+epoch=5
+training_loss=0.07, training_accuracy= 0.98
+Validation: val_loss=0.10, val_accuracy=0.97
+epoch=6
+Exception in thread ChkStopThr:
+Traceback (most recent call last):
+  File "/home/sandip/anaconda3/lib/python3.9/threading.py", line 973, in _bootstrap_inner
+    self.run()
+  File "/home/sandip/anaconda3/lib/python3.9/threading.py", line 910, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/sandip/anaconda3/lib/python3.9/site-packages/wandb/sdk/wandb_run.py", line 166, in check_status
+    status_response = self._interface.communicate_stop_status()
+  File "/home/sandip/anaconda3/lib/python3.9/site-packages/wandb/sdk/interface/interface.py", line 114, in communicate_stop_status
+Exception in thread NetStatThr:
+Traceback (most recent call last):
+  File "/home/sandip/anaconda3/lib/python3.9/threading.py", line 973, in _bootstrap_inner
+    self.run()
+  File "/home/sandip/anaconda3/lib/python3.9/threading.py", line 910, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/sandip/anaconda3/lib/python3.9/site-packages/wandb/sdk/wandb_run.py", line 148, in check_network_status
+    status_response = self._interface.communicate_network_status()
+  File "/home/sandip/anaconda3/lib/python3.9/site-packages/wandb/sdk/interface/interface.py", line 125, in communicate_network_status
+    resp = self._communicate_network_status(status)
+  File "/home/sandip/anaconda3/lib/python3.9/site-packages/wandb/sdk/interface/interface_shared.py", line 388, in _communicate_network_status
+    resp = self._communicate(req, local=True)
+  File "/home/sandip/anaconda3/lib/python3.9/site-packages/wandb/sdk/interface/interface_shared.py", line 213, in _communicate
+    return self._communicate_async(rec, local=local).get(timeout=timeout)
+  File "/home/sandip/anaconda3/lib/python3.9/site-packages/wandb/sdk/interface/interface_shared.py", line 218, in _communicate_async
+    raise Exception("The wandb backend process has shutdown")
+Exception: The wandb backend process has shutdown
+    resp = self._communicate_stop_status(status)
+  File "/home/sandip/anaconda3/lib/python3.9/site-packages/wandb/sdk/interface/interface_shared.py", line 378, in _communicate_stop_status
+    resp = self._communicate(req, local=True)
+  File "/home/sandip/anaconda3/lib/python3.9/site-packages/wandb/sdk/interface/interface_shared.py", line 213, in _communicate
+    return self._communicate_async(rec, local=local).get(timeout=timeout)
+  File "/home/sandip/anaconda3/lib/python3.9/site-packages/wandb/sdk/interface/interface_shared.py", line 218, in _communicate_async
+    raise Exception("The wandb backend process has shutdown")
+Exception: The wandb backend process has shutdown
+[34m[1mwandb[39m[22m: [32m[41mERROR[39m[49m Problem finishing run
+Traceback (most recent call last):
+  File "/home/sandip/anaconda3/lib/python3.9/site-packages/wandb/sdk/wandb_run.py", line 1805, in _atexit_cleanup
+    self._on_finish()
+  File "/home/sandip/anaconda3/lib/python3.9/site-packages/wandb/sdk/wandb_run.py", line 1988, in _on_finish
+    self._poll_exit_response = self._wait_for_finish()
+  File "/home/sandip/anaconda3/lib/python3.9/site-packages/wandb/sdk/wandb_run.py", line 1928, in _wait_for_finish
+    poll_exit_resp = self._backend.interface.communicate_poll_exit()
+  File "/home/sandip/anaconda3/lib/python3.9/site-packages/wandb/sdk/interface/interface.py", line 586, in communicate_poll_exit
+    resp = self._communicate_poll_exit(poll_exit)
+  File "/home/sandip/anaconda3/lib/python3.9/site-packages/wandb/sdk/interface/interface_shared.py", line 402, in _communicate_poll_exit
+    result = self._communicate(rec)
+  File "/home/sandip/anaconda3/lib/python3.9/site-packages/wandb/sdk/interface/interface_shared.py", line 213, in _communicate
+    return self._communicate_async(rec, local=local).get(timeout=timeout)
+  File "/home/sandip/anaconda3/lib/python3.9/site-packages/wandb/sdk/interface/router.py", line 37, in get
+    is_set = self._object_ready.wait(timeout)
+  File "/home/sandip/anaconda3/lib/python3.9/threading.py", line 574, in wait
+    signaled = self._cond.wait(timeout)
+  File "/home/sandip/anaconda3/lib/python3.9/threading.py", line 316, in wait
+    gotit = waiter.acquire(True, timeout)
+Exception
+training_loss=0.06, training_accuracy= 0.98
+Validation: val_loss=0.10, val_accuracy=0.97
+epoch=7
+training_loss=0.05, training_accuracy= 0.98
+Validation: val_loss=0.10, val_accuracy=0.97
+epoch=8
+training_loss=0.05, training_accuracy= 0.99
+Validation: val_loss=0.10, val_accuracy=0.97
+epoch=9
+training_loss=0.04, training_accuracy= 0.99
+Validation: val_loss=0.10, val_accuracy=0.97
+epoch=10
+training_loss=0.04, training_accuracy= 0.99
+Validation: val_loss=0.09, val_accuracy=0.97
+[34m[1mwandb[39m[22m: [32m[41mERROR[39m[49m Run t4fczhsz errored: Error('You must call wandb.init() before wandb.log()')
+[34m[1mwandb[39m[22m: Agent Starting Run: r6cqkjyn with config:
+[34m[1mwandb[39m[22m: 	batch_size: 64
+[34m[1mwandb[39m[22m: 	num_hidden_neurons: 256
+[34m[1mwandb[39m[22m: 	num_layers: 3
+[34m[1mwandb[39m[22m: 	weight_decay: 0.0015
+2022-02-25 17:22:33.971788: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcudart.so.11.0'; dlerror: libcudart.so.11.0: cannot open shared object file: No such file or directory

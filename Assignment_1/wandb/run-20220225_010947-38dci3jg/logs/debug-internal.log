@@ -1,0 +1,178 @@
+2022-02-25 01:09:47,651 INFO    MainThread:629173 [internal.py:wandb_internal():89] W&B internal server running at pid: 629173, started at: 2022-02-25 01:09:47.651794
+2022-02-25 01:09:47,653 DEBUG   HandlerThread:629173 [handler.py:handle_request():131] handle_request: check_version
+2022-02-25 01:09:47,654 INFO    WriterThread:629173 [datastore.py:open_for_write():77] open: /home/sandip/Desktop/DL/Assignment 1/wandb/run-20220225_010947-38dci3jg/run-38dci3jg.wandb
+2022-02-25 01:09:47,654 DEBUG   SenderThread:629173 [sender.py:send():235] send: header
+2022-02-25 01:09:47,654 DEBUG   SenderThread:629173 [sender.py:send_request():249] send_request: check_version
+2022-02-25 01:09:47,689 DEBUG   SenderThread:629173 [sender.py:send():235] send: run
+2022-02-25 01:09:48,075 INFO    SenderThread:629173 [dir_watcher.py:__init__():169] watching files in: /home/sandip/Desktop/DL/Assignment 1/wandb/run-20220225_010947-38dci3jg/files
+2022-02-25 01:09:48,075 INFO    SenderThread:629173 [sender.py:_start_run_threads():809] run started: 38dci3jg with start time 1645731587
+2022-02-25 01:09:48,076 DEBUG   SenderThread:629173 [sender.py:send():235] send: summary
+2022-02-25 01:09:48,076 INFO    SenderThread:629173 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-25 01:09:48,076 DEBUG   HandlerThread:629173 [handler.py:handle_request():131] handle_request: run_start
+2022-02-25 01:09:49,078 INFO    Thread-8  :629173 [dir_watcher.py:_on_file_created():217] file/dir created: /home/sandip/Desktop/DL/Assignment 1/wandb/run-20220225_010947-38dci3jg/files/wandb-summary.json
+2022-02-25 01:09:49,272 DEBUG   HandlerThread:629173 [meta.py:__init__():36] meta init
+2022-02-25 01:09:49,272 DEBUG   HandlerThread:629173 [meta.py:__init__():50] meta init done
+2022-02-25 01:09:49,272 DEBUG   HandlerThread:629173 [meta.py:probe():210] probe
+2022-02-25 01:09:49,273 DEBUG   HandlerThread:629173 [meta.py:_setup_git():200] setup git
+2022-02-25 01:09:49,295 DEBUG   HandlerThread:629173 [meta.py:_setup_git():207] setup git done
+2022-02-25 01:09:49,295 DEBUG   HandlerThread:629173 [meta.py:_save_pip():54] save pip
+2022-02-25 01:09:49,296 DEBUG   HandlerThread:629173 [meta.py:_save_pip():68] save pip done
+2022-02-25 01:09:49,296 DEBUG   HandlerThread:629173 [meta.py:_save_conda():75] save conda
+2022-02-25 01:09:50,079 INFO    Thread-8  :629173 [dir_watcher.py:_on_file_created():217] file/dir created: /home/sandip/Desktop/DL/Assignment 1/wandb/run-20220225_010947-38dci3jg/files/conda-environment.yaml
+2022-02-25 01:09:50,079 INFO    Thread-8  :629173 [dir_watcher.py:_on_file_created():217] file/dir created: /home/sandip/Desktop/DL/Assignment 1/wandb/run-20220225_010947-38dci3jg/files/requirements.txt
+2022-02-25 01:09:52,737 DEBUG   HandlerThread:629173 [meta.py:_save_conda():85] save conda done
+2022-02-25 01:09:52,738 DEBUG   HandlerThread:629173 [meta.py:probe():248] probe done
+2022-02-25 01:09:52,740 DEBUG   SenderThread:629173 [sender.py:send():235] send: files
+2022-02-25 01:09:52,740 INFO    SenderThread:629173 [sender.py:_save_file():944] saving file wandb-metadata.json with policy now
+2022-02-25 01:09:52,744 DEBUG   HandlerThread:629173 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-25 01:09:52,744 DEBUG   SenderThread:629173 [sender.py:send_request():249] send_request: stop_status
+2022-02-25 01:09:53,006 DEBUG   SenderThread:629173 [sender.py:send():235] send: run
+2022-02-25 01:09:53,080 INFO    Thread-8  :629173 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/sandip/Desktop/DL/Assignment 1/wandb/run-20220225_010947-38dci3jg/files/conda-environment.yaml
+2022-02-25 01:09:53,080 INFO    Thread-8  :629173 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/sandip/Desktop/DL/Assignment 1/wandb/run-20220225_010947-38dci3jg/files/config.yaml
+2022-02-25 01:09:53,080 INFO    Thread-8  :629173 [dir_watcher.py:_on_file_created():217] file/dir created: /home/sandip/Desktop/DL/Assignment 1/wandb/run-20220225_010947-38dci3jg/files/wandb-metadata.json
+2022-02-25 01:09:53,080 INFO    Thread-8  :629173 [dir_watcher.py:_on_file_created():217] file/dir created: /home/sandip/Desktop/DL/Assignment 1/wandb/run-20220225_010947-38dci3jg/files/output.log
+2022-02-25 01:09:53,279 INFO    SenderThread:629173 [sender.py:send_run():707] updated run: 38dci3jg
+2022-02-25 01:09:53,662 INFO    Thread-11 :629173 [upload_job.py:push():137] Uploaded file /tmp/tmpy3_dxx7_wandb/1i41mrt5-wandb-metadata.json
+2022-02-25 01:09:55,080 INFO    Thread-8  :629173 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/sandip/Desktop/DL/Assignment 1/wandb/run-20220225_010947-38dci3jg/files/output.log
+2022-02-25 01:09:55,938 DEBUG   SenderThread:629173 [sender.py:send():235] send: history
+2022-02-25 01:09:55,938 DEBUG   SenderThread:629173 [sender.py:send():235] send: summary
+2022-02-25 01:09:55,938 INFO    SenderThread:629173 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-25 01:09:56,080 INFO    Thread-8  :629173 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/sandip/Desktop/DL/Assignment 1/wandb/run-20220225_010947-38dci3jg/files/wandb-summary.json
+2022-02-25 01:09:57,081 INFO    Thread-8  :629173 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/sandip/Desktop/DL/Assignment 1/wandb/run-20220225_010947-38dci3jg/files/output.log
+2022-02-25 01:09:58,830 DEBUG   SenderThread:629173 [sender.py:send():235] send: history
+2022-02-25 01:09:58,831 DEBUG   SenderThread:629173 [sender.py:send():235] send: summary
+2022-02-25 01:09:58,831 INFO    SenderThread:629173 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-25 01:09:59,081 INFO    Thread-8  :629173 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/sandip/Desktop/DL/Assignment 1/wandb/run-20220225_010947-38dci3jg/files/wandb-summary.json
+2022-02-25 01:10:01,081 INFO    Thread-8  :629173 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/sandip/Desktop/DL/Assignment 1/wandb/run-20220225_010947-38dci3jg/files/output.log
+2022-02-25 01:10:01,564 DEBUG   SenderThread:629173 [sender.py:send():235] send: history
+2022-02-25 01:10:01,564 DEBUG   SenderThread:629173 [sender.py:send():235] send: summary
+2022-02-25 01:10:01,565 INFO    SenderThread:629173 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-25 01:10:02,082 INFO    Thread-8  :629173 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/sandip/Desktop/DL/Assignment 1/wandb/run-20220225_010947-38dci3jg/files/wandb-summary.json
+2022-02-25 01:10:03,082 INFO    Thread-8  :629173 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/sandip/Desktop/DL/Assignment 1/wandb/run-20220225_010947-38dci3jg/files/output.log
+2022-02-25 01:10:04,321 DEBUG   SenderThread:629173 [sender.py:send():235] send: history
+2022-02-25 01:10:04,321 DEBUG   SenderThread:629173 [sender.py:send():235] send: summary
+2022-02-25 01:10:04,321 INFO    SenderThread:629173 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-25 01:10:05,082 INFO    Thread-8  :629173 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/sandip/Desktop/DL/Assignment 1/wandb/run-20220225_010947-38dci3jg/files/wandb-summary.json
+2022-02-25 01:10:07,083 INFO    Thread-8  :629173 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/sandip/Desktop/DL/Assignment 1/wandb/run-20220225_010947-38dci3jg/files/output.log
+2022-02-25 01:10:07,171 DEBUG   SenderThread:629173 [sender.py:send():235] send: history
+2022-02-25 01:10:07,171 DEBUG   SenderThread:629173 [sender.py:send():235] send: summary
+2022-02-25 01:10:07,171 INFO    SenderThread:629173 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-25 01:10:07,782 DEBUG   HandlerThread:629173 [handler.py:handle_request():131] handle_request: poll_exit
+2022-02-25 01:10:07,783 DEBUG   SenderThread:629173 [sender.py:send():235] send: telemetry
+2022-02-25 01:10:07,783 DEBUG   SenderThread:629173 [sender.py:send():235] send: exit
+2022-02-25 01:10:07,783 INFO    SenderThread:629173 [sender.py:send_exit():371] handling exit code: 0
+2022-02-25 01:10:07,784 INFO    SenderThread:629173 [sender.py:send_exit():373] handling runtime: 19
+2022-02-25 01:10:07,785 INFO    SenderThread:629173 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-25 01:10:07,785 INFO    SenderThread:629173 [sender.py:send_exit():379] send defer
+2022-02-25 01:10:07,785 DEBUG   SenderThread:629173 [sender.py:send_request():249] send_request: poll_exit
+2022-02-25 01:10:07,786 DEBUG   HandlerThread:629173 [handler.py:handle_request():131] handle_request: defer
+2022-02-25 01:10:07,787 INFO    HandlerThread:629173 [handler.py:handle_request_defer():154] handle defer: 0
+2022-02-25 01:10:07,787 DEBUG   SenderThread:629173 [sender.py:send_request():249] send_request: defer
+2022-02-25 01:10:07,787 INFO    SenderThread:629173 [sender.py:send_request_defer():388] handle sender defer: 0
+2022-02-25 01:10:07,787 INFO    SenderThread:629173 [sender.py:transition_state():392] send defer: 1
+2022-02-25 01:10:07,787 DEBUG   HandlerThread:629173 [handler.py:handle_request():131] handle_request: defer
+2022-02-25 01:10:07,787 INFO    HandlerThread:629173 [handler.py:handle_request_defer():154] handle defer: 1
+2022-02-25 01:10:07,843 DEBUG   SenderThread:629173 [sender.py:send_request():249] send_request: defer
+2022-02-25 01:10:07,843 INFO    SenderThread:629173 [sender.py:send_request_defer():388] handle sender defer: 1
+2022-02-25 01:10:07,843 INFO    SenderThread:629173 [sender.py:transition_state():392] send defer: 2
+2022-02-25 01:10:07,844 DEBUG   SenderThread:629173 [sender.py:send():235] send: stats
+2022-02-25 01:10:07,844 DEBUG   HandlerThread:629173 [handler.py:handle_request():131] handle_request: defer
+2022-02-25 01:10:07,844 INFO    HandlerThread:629173 [handler.py:handle_request_defer():154] handle defer: 2
+2022-02-25 01:10:07,844 DEBUG   SenderThread:629173 [sender.py:send_request():249] send_request: defer
+2022-02-25 01:10:07,844 INFO    SenderThread:629173 [sender.py:send_request_defer():388] handle sender defer: 2
+2022-02-25 01:10:07,844 INFO    SenderThread:629173 [sender.py:transition_state():392] send defer: 3
+2022-02-25 01:10:07,845 DEBUG   HandlerThread:629173 [handler.py:handle_request():131] handle_request: defer
+2022-02-25 01:10:07,845 INFO    HandlerThread:629173 [handler.py:handle_request_defer():154] handle defer: 3
+2022-02-25 01:10:07,845 DEBUG   SenderThread:629173 [sender.py:send():235] send: summary
+2022-02-25 01:10:07,846 INFO    SenderThread:629173 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-25 01:10:07,846 DEBUG   SenderThread:629173 [sender.py:send_request():249] send_request: defer
+2022-02-25 01:10:07,846 INFO    SenderThread:629173 [sender.py:send_request_defer():388] handle sender defer: 3
+2022-02-25 01:10:07,846 INFO    SenderThread:629173 [sender.py:transition_state():392] send defer: 4
+2022-02-25 01:10:07,846 DEBUG   HandlerThread:629173 [handler.py:handle_request():131] handle_request: defer
+2022-02-25 01:10:07,846 INFO    HandlerThread:629173 [handler.py:handle_request_defer():154] handle defer: 4
+2022-02-25 01:10:07,847 DEBUG   SenderThread:629173 [sender.py:send_request():249] send_request: defer
+2022-02-25 01:10:07,847 INFO    SenderThread:629173 [sender.py:send_request_defer():388] handle sender defer: 4
+2022-02-25 01:10:07,891 DEBUG   HandlerThread:629173 [handler.py:handle_request():131] handle_request: poll_exit
+2022-02-25 01:10:08,084 INFO    Thread-8  :629173 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/sandip/Desktop/DL/Assignment 1/wandb/run-20220225_010947-38dci3jg/files/wandb-summary.json
+2022-02-25 01:10:08,084 INFO    Thread-8  :629173 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/sandip/Desktop/DL/Assignment 1/wandb/run-20220225_010947-38dci3jg/files/output.log
+2022-02-25 01:10:08,147 INFO    SenderThread:629173 [sender.py:transition_state():392] send defer: 5
+2022-02-25 01:10:08,147 DEBUG   SenderThread:629173 [sender.py:send_request():249] send_request: poll_exit
+2022-02-25 01:10:08,147 DEBUG   HandlerThread:629173 [handler.py:handle_request():131] handle_request: defer
+2022-02-25 01:10:08,147 INFO    HandlerThread:629173 [handler.py:handle_request_defer():154] handle defer: 5
+2022-02-25 01:10:08,148 DEBUG   SenderThread:629173 [sender.py:send_request():249] send_request: defer
+2022-02-25 01:10:08,148 INFO    SenderThread:629173 [sender.py:send_request_defer():388] handle sender defer: 5
+2022-02-25 01:10:08,148 INFO    SenderThread:629173 [dir_watcher.py:finish():283] shutting down directory watcher
+2022-02-25 01:10:08,248 DEBUG   HandlerThread:629173 [handler.py:handle_request():131] handle_request: poll_exit
+2022-02-25 01:10:09,084 INFO    Thread-8  :629173 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/sandip/Desktop/DL/Assignment 1/wandb/run-20220225_010947-38dci3jg/files/config.yaml
+2022-02-25 01:10:09,086 INFO    SenderThread:629173 [dir_watcher.py:finish():313] scan: /home/sandip/Desktop/DL/Assignment 1/wandb/run-20220225_010947-38dci3jg/files
+2022-02-25 01:10:09,086 INFO    SenderThread:629173 [dir_watcher.py:finish():327] scan save: /home/sandip/Desktop/DL/Assignment 1/wandb/run-20220225_010947-38dci3jg/files/config.yaml config.yaml
+2022-02-25 01:10:09,086 INFO    SenderThread:629173 [dir_watcher.py:finish():327] scan save: /home/sandip/Desktop/DL/Assignment 1/wandb/run-20220225_010947-38dci3jg/files/requirements.txt requirements.txt
+2022-02-25 01:10:09,095 INFO    SenderThread:629173 [dir_watcher.py:finish():327] scan save: /home/sandip/Desktop/DL/Assignment 1/wandb/run-20220225_010947-38dci3jg/files/conda-environment.yaml conda-environment.yaml
+2022-02-25 01:10:09,096 INFO    SenderThread:629173 [dir_watcher.py:finish():327] scan save: /home/sandip/Desktop/DL/Assignment 1/wandb/run-20220225_010947-38dci3jg/files/output.log output.log
+2022-02-25 01:10:09,102 INFO    SenderThread:629173 [dir_watcher.py:finish():327] scan save: /home/sandip/Desktop/DL/Assignment 1/wandb/run-20220225_010947-38dci3jg/files/wandb-summary.json wandb-summary.json
+2022-02-25 01:10:09,102 INFO    SenderThread:629173 [dir_watcher.py:finish():327] scan save: /home/sandip/Desktop/DL/Assignment 1/wandb/run-20220225_010947-38dci3jg/files/wandb-metadata.json wandb-metadata.json
+2022-02-25 01:10:09,102 INFO    SenderThread:629173 [sender.py:transition_state():392] send defer: 6
+2022-02-25 01:10:09,102 DEBUG   SenderThread:629173 [sender.py:send_request():249] send_request: poll_exit
+2022-02-25 01:10:09,106 DEBUG   HandlerThread:629173 [handler.py:handle_request():131] handle_request: defer
+2022-02-25 01:10:09,106 INFO    HandlerThread:629173 [handler.py:handle_request_defer():154] handle defer: 6
+2022-02-25 01:10:09,109 DEBUG   SenderThread:629173 [sender.py:send_request():249] send_request: defer
+2022-02-25 01:10:09,109 INFO    SenderThread:629173 [sender.py:send_request_defer():388] handle sender defer: 6
+2022-02-25 01:10:09,109 INFO    SenderThread:629173 [file_pusher.py:finish():177] shutting down file pusher
+2022-02-25 01:10:09,205 DEBUG   HandlerThread:629173 [handler.py:handle_request():131] handle_request: poll_exit
+2022-02-25 01:10:09,205 DEBUG   SenderThread:629173 [sender.py:send_request():249] send_request: poll_exit
+2022-02-25 01:10:09,307 DEBUG   HandlerThread:629173 [handler.py:handle_request():131] handle_request: poll_exit
+2022-02-25 01:10:09,307 DEBUG   SenderThread:629173 [sender.py:send_request():249] send_request: poll_exit
+2022-02-25 01:10:09,417 DEBUG   HandlerThread:629173 [handler.py:handle_request():131] handle_request: poll_exit
+2022-02-25 01:10:09,429 DEBUG   SenderThread:629173 [sender.py:send_request():249] send_request: poll_exit
+2022-02-25 01:10:09,531 DEBUG   HandlerThread:629173 [handler.py:handle_request():131] handle_request: poll_exit
+2022-02-25 01:10:09,532 DEBUG   SenderThread:629173 [sender.py:send_request():249] send_request: poll_exit
+2022-02-25 01:10:09,634 DEBUG   HandlerThread:629173 [handler.py:handle_request():131] handle_request: poll_exit
+2022-02-25 01:10:09,634 DEBUG   SenderThread:629173 [sender.py:send_request():249] send_request: poll_exit
+2022-02-25 01:10:09,739 DEBUG   HandlerThread:629173 [handler.py:handle_request():131] handle_request: poll_exit
+2022-02-25 01:10:09,740 DEBUG   SenderThread:629173 [sender.py:send_request():249] send_request: poll_exit
+2022-02-25 01:10:09,843 DEBUG   HandlerThread:629173 [handler.py:handle_request():131] handle_request: poll_exit
+2022-02-25 01:10:09,843 DEBUG   SenderThread:629173 [sender.py:send_request():249] send_request: poll_exit
+2022-02-25 01:10:09,947 DEBUG   HandlerThread:629173 [handler.py:handle_request():131] handle_request: poll_exit
+2022-02-25 01:10:09,947 DEBUG   SenderThread:629173 [sender.py:send_request():249] send_request: poll_exit
+2022-02-25 01:10:10,050 DEBUG   HandlerThread:629173 [handler.py:handle_request():131] handle_request: poll_exit
+2022-02-25 01:10:10,051 DEBUG   SenderThread:629173 [sender.py:send_request():249] send_request: poll_exit
+2022-02-25 01:10:10,088 INFO    Thread-15 :629173 [upload_job.py:push():137] Uploaded file /home/sandip/Desktop/DL/Assignment 1/wandb/run-20220225_010947-38dci3jg/files/output.log
+2022-02-25 01:10:10,126 INFO    Thread-16 :629173 [upload_job.py:push():137] Uploaded file /home/sandip/Desktop/DL/Assignment 1/wandb/run-20220225_010947-38dci3jg/files/wandb-summary.json
+2022-02-25 01:10:10,132 INFO    Thread-12 :629173 [upload_job.py:push():137] Uploaded file /home/sandip/Desktop/DL/Assignment 1/wandb/run-20220225_010947-38dci3jg/files/config.yaml
+2022-02-25 01:10:10,136 INFO    Thread-14 :629173 [upload_job.py:push():137] Uploaded file /home/sandip/Desktop/DL/Assignment 1/wandb/run-20220225_010947-38dci3jg/files/conda-environment.yaml
+2022-02-25 01:10:10,140 INFO    Thread-13 :629173 [upload_job.py:push():137] Uploaded file /home/sandip/Desktop/DL/Assignment 1/wandb/run-20220225_010947-38dci3jg/files/requirements.txt
+2022-02-25 01:10:10,154 DEBUG   HandlerThread:629173 [handler.py:handle_request():131] handle_request: poll_exit
+2022-02-25 01:10:10,154 DEBUG   SenderThread:629173 [sender.py:send_request():249] send_request: poll_exit
+2022-02-25 01:10:10,257 DEBUG   HandlerThread:629173 [handler.py:handle_request():131] handle_request: poll_exit
+2022-02-25 01:10:10,257 DEBUG   SenderThread:629173 [sender.py:send_request():249] send_request: poll_exit
+2022-02-25 01:10:10,342 INFO    Thread-7  :629173 [sender.py:transition_state():392] send defer: 7
+2022-02-25 01:10:10,343 DEBUG   HandlerThread:629173 [handler.py:handle_request():131] handle_request: defer
+2022-02-25 01:10:10,343 INFO    HandlerThread:629173 [handler.py:handle_request_defer():154] handle defer: 7
+2022-02-25 01:10:10,343 DEBUG   SenderThread:629173 [sender.py:send_request():249] send_request: defer
+2022-02-25 01:10:10,344 INFO    SenderThread:629173 [sender.py:send_request_defer():388] handle sender defer: 7
+2022-02-25 01:10:10,359 DEBUG   HandlerThread:629173 [handler.py:handle_request():131] handle_request: poll_exit
+2022-02-25 01:10:10,610 INFO    SenderThread:629173 [sender.py:transition_state():392] send defer: 8
+2022-02-25 01:10:10,611 DEBUG   SenderThread:629173 [sender.py:send_request():249] send_request: poll_exit
+2022-02-25 01:10:10,612 DEBUG   HandlerThread:629173 [handler.py:handle_request():131] handle_request: defer
+2022-02-25 01:10:10,612 INFO    HandlerThread:629173 [handler.py:handle_request_defer():154] handle defer: 8
+2022-02-25 01:10:10,612 DEBUG   SenderThread:629173 [sender.py:send_request():249] send_request: defer
+2022-02-25 01:10:10,613 INFO    SenderThread:629173 [sender.py:send_request_defer():388] handle sender defer: 8
+2022-02-25 01:10:10,613 INFO    SenderThread:629173 [sender.py:transition_state():392] send defer: 9
+2022-02-25 01:10:10,615 DEBUG   HandlerThread:629173 [handler.py:handle_request():131] handle_request: defer
+2022-02-25 01:10:10,615 INFO    HandlerThread:629173 [handler.py:handle_request_defer():154] handle defer: 9
+2022-02-25 01:10:10,615 DEBUG   SenderThread:629173 [sender.py:send():235] send: final
+2022-02-25 01:10:10,616 DEBUG   SenderThread:629173 [sender.py:send():235] send: footer
+2022-02-25 01:10:10,616 DEBUG   SenderThread:629173 [sender.py:send_request():249] send_request: defer
+2022-02-25 01:10:10,616 INFO    SenderThread:629173 [sender.py:send_request_defer():388] handle sender defer: 9
+2022-02-25 01:10:10,714 DEBUG   HandlerThread:629173 [handler.py:handle_request():131] handle_request: poll_exit
+2022-02-25 01:10:10,714 DEBUG   SenderThread:629173 [sender.py:send_request():249] send_request: poll_exit
+2022-02-25 01:10:10,715 INFO    SenderThread:629173 [file_pusher.py:join():182] waiting for file pusher
+2022-02-25 01:10:11,260 DEBUG   HandlerThread:629173 [handler.py:handle_request():131] handle_request: get_summary
+2022-02-25 01:10:11,262 DEBUG   HandlerThread:629173 [handler.py:handle_request():131] handle_request: sampled_history
+2022-02-25 01:10:11,265 DEBUG   HandlerThread:629173 [handler.py:handle_request():131] handle_request: shutdown
+2022-02-25 01:10:11,265 INFO    HandlerThread:629173 [handler.py:finish():739] shutting down handler
+2022-02-25 01:10:11,617 INFO    WriterThread:629173 [datastore.py:close():281] close: /home/sandip/Desktop/DL/Assignment 1/wandb/run-20220225_010947-38dci3jg/run-38dci3jg.wandb
+2022-02-25 01:10:12,257 INFO    SenderThread:629173 [sender.py:finish():1075] shutting down sender
+2022-02-25 01:10:12,258 INFO    SenderThread:629173 [file_pusher.py:finish():177] shutting down file pusher
+2022-02-25 01:10:12,258 INFO    SenderThread:629173 [file_pusher.py:join():182] waiting for file pusher
+2022-02-25 01:10:12,261 INFO    MainThread:629173 [internal.py:handle_exit():79] Internal process exited

@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "/home/sandip/Desktop/DL/Assignment 1/Test.py", line 99, in <module>
+    model.setup_connections()
+  File "/home/sandip/Desktop/DL/Assignment 1/NN/Model.py", line 59, in setup_connections
+    self.loss.set_trainable_layers(trainable_layers=self.trainable_layers)
+AttributeError: 'MeanSquaredError' object has no attribute 'set_trainable_layers'

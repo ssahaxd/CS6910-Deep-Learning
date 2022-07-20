@@ -1,0 +1,169 @@
+2022-02-25 12:20:52,753 INFO    Thread-132:680997 [wandb_setup.py:_flush():75] Loading settings from /home/sandip/.config/wandb/settings
+2022-02-25 12:20:52,754 INFO    Thread-132:680997 [wandb_setup.py:_flush():75] Loading settings from wandb/settings
+2022-02-25 12:20:52,754 INFO    Thread-132:680997 [wandb_setup.py:_flush():75] Loading settings from environment variables: {'entity': 'cookie303', 'project': 'Assignment1', 'root_dir': '/home/sandip/Desktop/DL/Assignment 1', 'run_id': 'ff8m1ytr', 'sweep_param_path': '/home/sandip/Desktop/DL/Assignment 1/wandb/sweep-b52zm83h/config-ff8m1ytr.yaml', 'sweep_id': 'b52zm83h'}
+2022-02-25 12:20:52,754 INFO    Thread-132:680997 [wandb_setup.py:_flush():75] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2022-02-25 12:20:52,754 INFO    Thread-132:680997 [wandb_init.py:_log_setup():386] Logging user logs to /home/sandip/Desktop/DL/Assignment 1/wandb/run-20220225_122052-ff8m1ytr/logs/debug.log
+2022-02-25 12:20:52,755 INFO    Thread-132:680997 [wandb_init.py:_log_setup():387] Logging internal logs to /home/sandip/Desktop/DL/Assignment 1/wandb/run-20220225_122052-ff8m1ytr/logs/debug-internal.log
+2022-02-25 12:20:52,755 INFO    Thread-132:680997 [wandb_init.py:_jupyter_setup():336] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x7ff91d77b760>
+2022-02-25 12:20:52,755 INFO    Thread-132:680997 [wandb_init.py:init():420] calling init triggers
+2022-02-25 12:20:52,756 INFO    Thread-132:680997 [wandb_init.py:init():425] wandb.init called with sweep_config: {'activation': 'ReLU', 'batch_size': 32, 'epochs': 5, 'initializer': 'xavier', 'learning_rate': 0.001, 'num_hidden_neurons': 128, 'num_layers': 5, 'optimizer': 'Nadam', 'weight_decay': 0}
+config: {'epochs': 5, 'num_layers': 3, 'num_hidden_neurons': 32, 'weight_decay': 0, 'learning_rate': 0.001, 'optimizer': 'SGD', 'batch_size': 16, 'activation': 'Tanh', 'initializer': 'xavier'}
+2022-02-25 12:20:52,756 INFO    Thread-132:680997 [wandb_init.py:init():471] starting backend
+2022-02-25 12:20:52,756 INFO    Thread-132:680997 [backend.py:_multiprocessing_setup():99] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2022-02-25 12:20:52,759 INFO    Thread-132:680997 [backend.py:ensure_launched():219] starting backend process...
+2022-02-25 12:20:52,779 INFO    Thread-132:680997 [backend.py:ensure_launched():224] started backend process with pid: 682015
+2022-02-25 12:20:52,780 INFO    Thread-132:680997 [wandb_init.py:init():480] backend started and connected
+2022-02-25 12:20:52,803 INFO    Thread-132:680997 [wandb_run.py:_config_callback():966] config_cb None None {'activation': 'ReLU', 'batch_size': 32, 'epochs': 5, 'initializer': 'xavier', 'learning_rate': 0.001, 'num_hidden_neurons': 128, 'num_layers': 5, 'optimizer': 'Nadam', 'weight_decay': 0}
+2022-02-25 12:20:52,808 INFO    Thread-132:680997 [wandb_run.py:_label_probe_notebook():921] probe notebook
+2022-02-25 12:20:52,811 INFO    Thread-132:680997 [wandb_init.py:init():550] updated telemetry
+2022-02-25 12:20:52,835 INFO    Thread-132:680997 [wandb_init.py:init():581] communicating current version
+2022-02-25 12:20:53,452 INFO    Thread-132:680997 [wandb_init.py:init():586] got version response 
+2022-02-25 12:20:53,452 INFO    Thread-132:680997 [wandb_init.py:init():596] communicating run to backend with 30 second timeout
+2022-02-25 12:20:53,743 INFO    Thread-132:680997 [wandb_init.py:init():624] starting run threads in backend
+2022-02-25 12:20:58,449 INFO    Thread-132:680997 [wandb_run.py:_console_start():1827] atexit reg
+2022-02-25 12:20:58,449 INFO    Thread-132:680997 [wandb_run.py:_redirect():1701] redirect: SettingsConsole.WRAP
+2022-02-25 12:20:58,449 INFO    Thread-132:680997 [wandb_run.py:_redirect():1738] Wrapping output streams.
+2022-02-25 12:20:58,450 INFO    Thread-132:680997 [wandb_run.py:_redirect():1762] Redirects installed.
+2022-02-25 12:20:58,450 INFO    Thread-132:680997 [wandb_init.py:init():651] run started, returning control to user process
+2022-02-25 12:21:37,717 INFO    Thread-132:680997 [wandb_run.py:finish():1468] finishing run cookie303/Assignment1/ff8m1ytr
+2022-02-25 12:21:37,718 INFO    Thread-132:680997 [jupyter.py:save_history():429] not saving jupyter history
+2022-02-25 12:21:37,718 INFO    Thread-132:680997 [jupyter.py:save_ipynb():374] not saving jupyter notebook
+2022-02-25 12:21:37,718 INFO    Thread-132:680997 [wandb_init.py:_jupyter_teardown():318] cleaning up jupyter logic
+2022-02-25 12:21:37,718 INFO    Thread-132:680997 [wandb_run.py:_atexit_cleanup():1797] got exitcode: 0
+2022-02-25 12:21:37,723 INFO    Thread-132:680997 [wandb_run.py:_restore():1769] restore
+2022-02-25 12:21:38,498 INFO    Thread-132:680997 [wandb_run.py:_wait_for_finish():1929] got exit ret: file_counts {
+  wandb_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 753
+  total_bytes: 753
+}
+
+2022-02-25 12:21:38,865 INFO    Thread-132:680997 [wandb_run.py:_wait_for_finish():1929] got exit ret: file_counts {
+  wandb_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 753
+  total_bytes: 753
+}
+
+2022-02-25 12:21:39,762 INFO    Thread-132:680997 [wandb_run.py:_wait_for_finish():1929] got exit ret: file_counts {
+  wandb_count: 3
+}
+pusher_stats {
+  uploaded_bytes: 753
+  total_bytes: 7215
+}
+
+2022-02-25 12:21:39,864 INFO    Thread-132:680997 [wandb_run.py:_wait_for_finish():1929] got exit ret: file_counts {
+  wandb_count: 6
+}
+pusher_stats {
+  uploaded_bytes: 753
+  total_bytes: 21945
+}
+
+2022-02-25 12:21:39,965 INFO    Thread-132:680997 [wandb_run.py:_wait_for_finish():1929] got exit ret: file_counts {
+  wandb_count: 6
+}
+pusher_stats {
+  uploaded_bytes: 753
+  total_bytes: 21945
+}
+
+2022-02-25 12:21:40,066 INFO    Thread-132:680997 [wandb_run.py:_wait_for_finish():1929] got exit ret: file_counts {
+  wandb_count: 6
+}
+pusher_stats {
+  uploaded_bytes: 753
+  total_bytes: 21945
+}
+
+2022-02-25 12:21:40,167 INFO    Thread-132:680997 [wandb_run.py:_wait_for_finish():1929] got exit ret: file_counts {
+  wandb_count: 6
+}
+pusher_stats {
+  uploaded_bytes: 753
+  total_bytes: 21945
+}
+
+2022-02-25 12:21:40,268 INFO    Thread-132:680997 [wandb_run.py:_wait_for_finish():1929] got exit ret: file_counts {
+  wandb_count: 6
+}
+pusher_stats {
+  uploaded_bytes: 21945
+  total_bytes: 21945
+}
+
+2022-02-25 12:21:40,370 INFO    Thread-132:680997 [wandb_run.py:_wait_for_finish():1929] got exit ret: file_counts {
+  wandb_count: 6
+}
+pusher_stats {
+  uploaded_bytes: 21945
+  total_bytes: 21945
+}
+
+2022-02-25 12:21:40,471 INFO    Thread-132:680997 [wandb_run.py:_wait_for_finish():1929] got exit ret: file_counts {
+  wandb_count: 6
+}
+pusher_stats {
+  uploaded_bytes: 21945
+  total_bytes: 21945
+}
+
+2022-02-25 12:21:40,572 INFO    Thread-132:680997 [wandb_run.py:_wait_for_finish():1929] got exit ret: file_counts {
+  wandb_count: 6
+}
+pusher_stats {
+  uploaded_bytes: 21945
+  total_bytes: 21945
+}
+
+2022-02-25 12:21:40,673 INFO    Thread-132:680997 [wandb_run.py:_wait_for_finish():1929] got exit ret: file_counts {
+  wandb_count: 6
+}
+pusher_stats {
+  uploaded_bytes: 21945
+  total_bytes: 21945
+}
+
+2022-02-25 12:21:40,774 INFO    Thread-132:680997 [wandb_run.py:_wait_for_finish():1929] got exit ret: file_counts {
+  wandb_count: 6
+}
+pusher_stats {
+  uploaded_bytes: 21945
+  total_bytes: 21945
+}
+
+2022-02-25 12:21:40,875 INFO    Thread-132:680997 [wandb_run.py:_wait_for_finish():1929] got exit ret: file_counts {
+  wandb_count: 6
+}
+pusher_stats {
+  uploaded_bytes: 21945
+  total_bytes: 21945
+}
+
+2022-02-25 12:21:41,199 INFO    Thread-132:680997 [wandb_run.py:_wait_for_finish():1929] got exit ret: file_counts {
+  wandb_count: 6
+}
+pusher_stats {
+  uploaded_bytes: 21945
+  total_bytes: 21945
+}
+
+2022-02-25 12:21:41,785 INFO    Thread-132:680997 [wandb_run.py:_wait_for_finish():1929] got exit ret: done: true
+exit_result {
+}
+file_counts {
+  wandb_count: 6
+}
+pusher_stats {
+  uploaded_bytes: 21945
+  total_bytes: 21945
+}
+local_info {
+}
+
+2022-02-25 12:21:43,139 INFO    Thread-132:680997 [wandb_run.py:_append_history():2144] rendering history
+2022-02-25 12:21:43,140 INFO    Thread-132:680997 [wandb_run.py:_append_summary():2102] rendering summary
+2022-02-25 12:21:43,140 INFO    Thread-132:680997 [wandb_run.py:_append_files():2194] logging synced files

@@ -1,0 +1,14 @@
+Create sweep with ID: hhsj0ca4
+Sweep URL: https://wandb.ai/cookie303/Assignment1/sweeps/hhsj0ca4
+[34m[1mwandb[39m[22m: [33mWARNING[39m Calling wandb.login() after wandb.init() has no effect.
+[34m[1mwandb[39m[22m: Agent Starting Run: du8ofxau with config:
+[34m[1mwandb[39m[22m: 	activation: Tanh
+[34m[1mwandb[39m[22m: 	batch_size: 64
+[34m[1mwandb[39m[22m: 	epochs: 5
+[34m[1mwandb[39m[22m: 	initializer: xavier
+[34m[1mwandb[39m[22m: 	learning_rate: 0.001
+[34m[1mwandb[39m[22m: 	num_hidden_neurons: 64
+[34m[1mwandb[39m[22m: 	num_layers: 5
+[34m[1mwandb[39m[22m: 	optimizer: RMSprop
+[34m[1mwandb[39m[22m: 	weight_decay: 0.0005
+2022-02-24 15:50:01.066832: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcudart.so.11.0'; dlerror: libcudart.so.11.0: cannot open shared object file: No such file or directory

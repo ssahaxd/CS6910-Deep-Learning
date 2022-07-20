@@ -1,0 +1,104 @@
+2022-02-24 15:53:18,931 INFO    Thread-112:534558 [wandb_setup.py:_flush():75] Loading settings from /home/sandip/.config/wandb/settings
+2022-02-24 15:53:18,932 INFO    Thread-112:534558 [wandb_setup.py:_flush():75] Loading settings from wandb/settings
+2022-02-24 15:53:18,932 INFO    Thread-112:534558 [wandb_setup.py:_flush():75] Loading settings from environment variables: {'entity': 'cookie303', 'project': 'Assignment1', 'root_dir': '/home/sandip/Desktop/DL/Assignment 1', 'run_id': '82syfn0w', 'sweep_param_path': '/home/sandip/Desktop/DL/Assignment 1/wandb/sweep-o42cpjd4/config-82syfn0w.yaml', 'sweep_id': 'o42cpjd4'}
+2022-02-24 15:53:18,932 INFO    Thread-112:534558 [wandb_setup.py:_flush():75] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2022-02-24 15:53:18,933 INFO    Thread-112:534558 [wandb_init.py:_log_setup():386] Logging user logs to /home/sandip/Desktop/DL/Assignment 1/wandb/run-20220224_155318-82syfn0w/logs/debug.log
+2022-02-24 15:53:18,933 INFO    Thread-112:534558 [wandb_init.py:_log_setup():387] Logging internal logs to /home/sandip/Desktop/DL/Assignment 1/wandb/run-20220224_155318-82syfn0w/logs/debug-internal.log
+2022-02-24 15:53:18,933 INFO    Thread-112:534558 [wandb_init.py:init():420] calling init triggers
+2022-02-24 15:53:18,933 INFO    Thread-112:534558 [wandb_init.py:init():425] wandb.init called with sweep_config: {'activation': 'Sigmoid', 'batch_size': 32, 'epochs': 5, 'initializer': 'xavier', 'learning_rate': 0.0001, 'num_hidden_neurons': 32, 'num_layers': 3, 'optimizer': 'NAG', 'weight_decay': 0.0005}
+config: {'epochs': 5, 'num_hidden_layers': 3, 'num_hidden_neurons': 32, 'weight_decay': 0, 'learning_rate': 0.001, 'optimizer': 'SGD', 'batch_size': 16, 'activation': 'Tanh', 'initializer': 'xavier', 'loss': 'CategoricalCrossEntropy'}
+2022-02-24 15:53:18,933 INFO    Thread-112:534558 [wandb_init.py:init():471] starting backend
+2022-02-24 15:53:18,933 INFO    Thread-112:534558 [backend.py:_multiprocessing_setup():99] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2022-02-24 15:53:18,934 INFO    Thread-112:534558 [backend.py:ensure_launched():219] starting backend process...
+2022-02-24 15:53:18,941 INFO    Thread-112:534558 [backend.py:ensure_launched():224] started backend process with pid: 536836
+2022-02-24 15:53:18,942 INFO    Thread-112:534558 [wandb_init.py:init():480] backend started and connected
+2022-02-24 15:53:18,953 INFO    Thread-112:534558 [wandb_run.py:_config_callback():966] config_cb None None {'activation': 'Sigmoid', 'batch_size': 32, 'epochs': 5, 'initializer': 'xavier', 'learning_rate': 0.0001, 'num_hidden_neurons': 32, 'num_layers': 3, 'optimizer': 'NAG', 'weight_decay': 0.0005}
+2022-02-24 15:53:18,956 INFO    Thread-112:534558 [wandb_run.py:_label_probe_notebook():921] probe notebook
+2022-02-24 15:53:18,957 INFO    Thread-112:534558 [wandb_init.py:init():550] updated telemetry
+2022-02-24 15:53:18,995 INFO    Thread-112:534558 [wandb_init.py:init():581] communicating current version
+2022-02-24 15:53:19,620 INFO    Thread-112:534558 [wandb_init.py:init():586] got version response 
+2022-02-24 15:53:19,621 INFO    Thread-112:534558 [wandb_init.py:init():596] communicating run to backend with 30 second timeout
+2022-02-24 15:53:20,497 INFO    Thread-112:534558 [wandb_init.py:init():624] starting run threads in backend
+2022-02-24 15:53:25,162 INFO    Thread-112:534558 [wandb_run.py:_console_start():1827] atexit reg
+2022-02-24 15:53:25,163 INFO    Thread-112:534558 [wandb_run.py:_redirect():1701] redirect: SettingsConsole.WRAP
+2022-02-24 15:53:25,163 INFO    Thread-112:534558 [wandb_run.py:_redirect():1738] Wrapping output streams.
+2022-02-24 15:53:25,165 INFO    Thread-112:534558 [wandb_run.py:_redirect():1762] Redirects installed.
+2022-02-24 15:53:25,165 INFO    Thread-112:534558 [wandb_init.py:init():651] run started, returning control to user process
+2022-02-24 15:53:25,166 INFO    Thread-112:534558 [wandb_run.py:finish():1468] finishing run cookie303/Assignment1/82syfn0w
+2022-02-24 15:53:25,167 INFO    Thread-112:534558 [wandb_run.py:_atexit_cleanup():1797] got exitcode: 1
+2022-02-24 15:53:25,169 INFO    Thread-112:534558 [wandb_run.py:_restore():1769] restore
+2022-02-24 15:53:25,740 INFO    Thread-112:534558 [wandb_run.py:_wait_for_finish():1929] got exit ret: file_counts {
+  wandb_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 753
+  total_bytes: 753
+}
+
+2022-02-24 15:53:26,089 INFO    Thread-112:534558 [wandb_run.py:_wait_for_finish():1929] got exit ret: file_counts {
+  wandb_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 753
+  total_bytes: 753
+}
+
+2022-02-24 15:53:26,563 INFO    Thread-112:534558 [wandb_run.py:_wait_for_finish():1929] got exit ret: file_counts {
+  wandb_count: 4
+}
+pusher_stats {
+  uploaded_bytes: 753
+  total_bytes: 21269
+}
+
+2022-02-24 15:53:26,668 INFO    Thread-112:534558 [wandb_run.py:_wait_for_finish():1929] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 753
+  total_bytes: 21295
+}
+
+2022-02-24 15:53:26,773 INFO    Thread-112:534558 [wandb_run.py:_wait_for_finish():1929] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 753
+  total_bytes: 21295
+}
+
+2022-02-24 15:53:26,900 INFO    Thread-112:534558 [wandb_run.py:_wait_for_finish():1929] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 753
+  total_bytes: 21295
+}
+
+2022-02-24 15:53:27,004 INFO    Thread-112:534558 [wandb_run.py:_wait_for_finish():1929] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 753
+  total_bytes: 21295
+}
+
+2022-02-24 15:53:27,105 INFO    Thread-112:534558 [wandb_run.py:_restore():1769] restore
+2022-02-24 15:53:29,194 ERROR   Thread-112:534558 [wandb_run.py:_atexit_cleanup():1815] Problem finishing run
+Traceback (most recent call last):
+  File "/home/sandip/anaconda3/lib/python3.9/site-packages/wandb/agents/pyagent.py", line 302, in _run_job
+    self._function()
+  File "/tmp/ipykernel_534558/2808758218.py", line 47, in sweep
+    optimizer=optim_dict[CONFIG.optimizer](
+KeyError: 'NAG'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/sandip/anaconda3/lib/python3.9/site-packages/wandb/sdk/wandb_run.py", line 1805, in _atexit_cleanup
+    self._on_finish()
+  File "/home/sandip/anaconda3/lib/python3.9/site-packages/wandb/sdk/wandb_run.py", line 1988, in _on_finish
+    self._poll_exit_response = self._wait_for_finish()
+  File "/home/sandip/anaconda3/lib/python3.9/site-packages/wandb/sdk/wandb_run.py", line 1938, in _wait_for_finish
+    time.sleep(0.1)
+Exception

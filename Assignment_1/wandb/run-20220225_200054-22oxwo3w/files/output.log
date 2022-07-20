@@ -1,0 +1,110 @@
+epoch=1
+	batch=0, batch_loss=0.11, regularization_loss=0.00, total_batch_loss=0.11, batch_accuracy= 0.06
+	batch=500, batch_loss=0.09, regularization_loss=0.00, total_batch_loss=0.09, batch_accuracy= 0.19
+	batch=1000, batch_loss=0.09, regularization_loss=0.00, total_batch_loss=0.09, batch_accuracy= 0.00
+	batch=1500, batch_loss=0.09, regularization_loss=0.00, total_batch_loss=0.09, batch_accuracy= 0.06
+	batch=2000, batch_loss=0.09, regularization_loss=0.00, total_batch_loss=0.09, batch_accuracy= 0.31
+	batch=2500, batch_loss=0.09, regularization_loss=0.00, total_batch_loss=0.09, batch_accuracy= 0.00
+	batch=3000, batch_loss=0.09, regularization_loss=0.00, total_batch_loss=0.09, batch_accuracy= 0.06
+	batch=3374, batch_loss=0.09, regularization_loss=0.00, total_batch_loss=0.09, batch_accuracy= 0.06
+training_loss=0.09, training_accuracy= 0.13
+Validation: val_loss=0.09, val_accuracy=0.17
+epoch=2
+	batch=0, batch_loss=0.09, regularization_loss=0.00, total_batch_loss=0.09, batch_accuracy= 0.12
+	batch=500, batch_loss=0.09, regularization_loss=0.00, total_batch_loss=0.09, batch_accuracy= 0.25
+	batch=1000, batch_loss=0.09, regularization_loss=0.00, total_batch_loss=0.09, batch_accuracy= 0.00
+	batch=1500, batch_loss=0.09, regularization_loss=0.00, total_batch_loss=0.09, batch_accuracy= 0.31
+	batch=2000, batch_loss=0.09, regularization_loss=0.00, total_batch_loss=0.09, batch_accuracy= 0.12
+	batch=2500, batch_loss=0.09, regularization_loss=0.00, total_batch_loss=0.09, batch_accuracy= 0.06
+	batch=3000, batch_loss=0.09, regularization_loss=0.00, total_batch_loss=0.09, batch_accuracy= 0.12
+	batch=3374, batch_loss=0.09, regularization_loss=0.00, total_batch_loss=0.09, batch_accuracy= 0.06
+training_loss=0.09, training_accuracy= 0.23
+Validation: val_loss=0.09, val_accuracy=0.20
+epoch=3
+	batch=0, batch_loss=0.09, regularization_loss=0.00, total_batch_loss=0.09, batch_accuracy= 0.19
+	batch=500, batch_loss=0.09, regularization_loss=0.00, total_batch_loss=0.09, batch_accuracy= 0.25
+	batch=1000, batch_loss=0.09, regularization_loss=0.00, total_batch_loss=0.09, batch_accuracy= 0.19
+	batch=1500, batch_loss=0.09, regularization_loss=0.00, total_batch_loss=0.09, batch_accuracy= 0.25
+	batch=2000, batch_loss=0.09, regularization_loss=0.00, total_batch_loss=0.09, batch_accuracy= 0.12
+	batch=2500, batch_loss=0.09, regularization_loss=0.00, total_batch_loss=0.09, batch_accuracy= 0.06
+	batch=3000, batch_loss=0.08, regularization_loss=0.00, total_batch_loss=0.08, batch_accuracy= 0.25
+	batch=3374, batch_loss=0.08, regularization_loss=0.00, total_batch_loss=0.08, batch_accuracy= 0.12
+training_loss=0.09, training_accuracy= 0.24
+Validation: val_loss=0.08, val_accuracy=0.20
+epoch=4
+	batch=0, batch_loss=0.08, regularization_loss=0.00, total_batch_loss=0.08, batch_accuracy= 0.12
+	batch=500, batch_loss=0.08, regularization_loss=0.00, total_batch_loss=0.08, batch_accuracy= 0.31
+	batch=1000, batch_loss=0.08, regularization_loss=0.00, total_batch_loss=0.08, batch_accuracy= 0.31
+	batch=1500, batch_loss=0.08, regularization_loss=0.00, total_batch_loss=0.08, batch_accuracy= 0.31
+	batch=2000, batch_loss=0.08, regularization_loss=0.00, total_batch_loss=0.08, batch_accuracy= 0.31
+	batch=2500, batch_loss=0.08, regularization_loss=0.00, total_batch_loss=0.08, batch_accuracy= 0.12
+	batch=3000, batch_loss=0.08, regularization_loss=0.00, total_batch_loss=0.08, batch_accuracy= 0.31
+	batch=3374, batch_loss=0.08, regularization_loss=0.00, total_batch_loss=0.08, batch_accuracy= 0.19
+training_loss=0.08, training_accuracy= 0.30
+Validation: val_loss=0.08, val_accuracy=0.32
+epoch=5
+	batch=0, batch_loss=0.08, regularization_loss=0.00, total_batch_loss=0.08, batch_accuracy= 0.38
+	batch=500, batch_loss=0.08, regularization_loss=0.00, total_batch_loss=0.08, batch_accuracy= 0.44
+	batch=1000, batch_loss=0.07, regularization_loss=0.00, total_batch_loss=0.07, batch_accuracy= 0.44
+	batch=1500, batch_loss=0.08, regularization_loss=0.00, total_batch_loss=0.08, batch_accuracy= 0.38
+	batch=2000, batch_loss=0.07, regularization_loss=0.00, total_batch_loss=0.07, batch_accuracy= 0.25
+	batch=2500, batch_loss=0.07, regularization_loss=0.00, total_batch_loss=0.07, batch_accuracy= 0.44
+	batch=3000, batch_loss=0.07, regularization_loss=0.00, total_batch_loss=0.07, batch_accuracy= 0.44
+	batch=3374, batch_loss=0.07, regularization_loss=0.00, total_batch_loss=0.07, batch_accuracy= 0.50
+training_loss=0.07, training_accuracy= 0.43
+Validation: val_loss=0.07, val_accuracy=0.52
+epoch=6
+	batch=0, batch_loss=0.07, regularization_loss=0.00, total_batch_loss=0.07, batch_accuracy= 0.50
+	batch=500, batch_loss=0.06, regularization_loss=0.00, total_batch_loss=0.06, batch_accuracy= 0.62
+	batch=1000, batch_loss=0.06, regularization_loss=0.00, total_batch_loss=0.06, batch_accuracy= 0.62
+	batch=1500, batch_loss=0.06, regularization_loss=0.00, total_batch_loss=0.06, batch_accuracy= 0.62
+	batch=2000, batch_loss=0.07, regularization_loss=0.00, total_batch_loss=0.07, batch_accuracy= 0.44
+	batch=2500, batch_loss=0.06, regularization_loss=0.00, total_batch_loss=0.06, batch_accuracy= 0.50
+	batch=3000, batch_loss=0.06, regularization_loss=0.00, total_batch_loss=0.06, batch_accuracy= 0.56
+	batch=3374, batch_loss=0.06, regularization_loss=0.00, total_batch_loss=0.06, batch_accuracy= 0.69
+training_loss=0.06, training_accuracy= 0.57
+Validation: val_loss=0.06, val_accuracy=0.62
+epoch=7
+	batch=0, batch_loss=0.06, regularization_loss=0.00, total_batch_loss=0.06, batch_accuracy= 0.69
+	batch=500, batch_loss=0.05, regularization_loss=0.00, total_batch_loss=0.05, batch_accuracy= 0.75
+	batch=1000, batch_loss=0.05, regularization_loss=0.00, total_batch_loss=0.05, batch_accuracy= 0.75
+	batch=1500, batch_loss=0.05, regularization_loss=0.00, total_batch_loss=0.05, batch_accuracy= 0.69
+	batch=2000, batch_loss=0.06, regularization_loss=0.00, total_batch_loss=0.06, batch_accuracy= 0.50
+	batch=2500, batch_loss=0.05, regularization_loss=0.00, total_batch_loss=0.05, batch_accuracy= 0.69
+	batch=3000, batch_loss=0.04, regularization_loss=0.00, total_batch_loss=0.04, batch_accuracy= 0.69
+	batch=3374, batch_loss=0.04, regularization_loss=0.00, total_batch_loss=0.04, batch_accuracy= 0.75
+training_loss=0.05, training_accuracy= 0.63
+Validation: val_loss=0.05, val_accuracy=0.66
+epoch=8
+	batch=0, batch_loss=0.05, regularization_loss=0.00, total_batch_loss=0.05, batch_accuracy= 0.75
+	batch=500, batch_loss=0.04, regularization_loss=0.00, total_batch_loss=0.04, batch_accuracy= 0.88
+	batch=1000, batch_loss=0.04, regularization_loss=0.00, total_batch_loss=0.04, batch_accuracy= 0.81
+	batch=1500, batch_loss=0.04, regularization_loss=0.00, total_batch_loss=0.04, batch_accuracy= 0.75
+	batch=2000, batch_loss=0.05, regularization_loss=0.00, total_batch_loss=0.05, batch_accuracy= 0.50
+	batch=2500, batch_loss=0.04, regularization_loss=0.00, total_batch_loss=0.04, batch_accuracy= 0.69
+	batch=3000, batch_loss=0.04, regularization_loss=0.00, total_batch_loss=0.04, batch_accuracy= 0.81
+	batch=3374, batch_loss=0.03, regularization_loss=0.00, total_batch_loss=0.03, batch_accuracy= 0.69
+training_loss=0.04, training_accuracy= 0.68
+Validation: val_loss=0.04, val_accuracy=0.71
+epoch=9
+	batch=0, batch_loss=0.04, regularization_loss=0.00, total_batch_loss=0.04, batch_accuracy= 0.75
+	batch=500, batch_loss=0.03, regularization_loss=0.00, total_batch_loss=0.03, batch_accuracy= 0.94
+	batch=1000, batch_loss=0.03, regularization_loss=0.00, total_batch_loss=0.03, batch_accuracy= 0.81
+	batch=1500, batch_loss=0.04, regularization_loss=0.00, total_batch_loss=0.04, batch_accuracy= 0.69
+	batch=2000, batch_loss=0.04, regularization_loss=0.00, total_batch_loss=0.04, batch_accuracy= 0.50
+	batch=2500, batch_loss=0.03, regularization_loss=0.00, total_batch_loss=0.03, batch_accuracy= 0.81
+	batch=3000, batch_loss=0.03, regularization_loss=0.00, total_batch_loss=0.03, batch_accuracy= 0.81
+	batch=3374, batch_loss=0.03, regularization_loss=0.00, total_batch_loss=0.03, batch_accuracy= 0.75
+training_loss=0.04, training_accuracy= 0.73
+Validation: val_loss=0.04, val_accuracy=0.73
+epoch=10
+	batch=0, batch_loss=0.03, regularization_loss=0.00, total_batch_loss=0.03, batch_accuracy= 0.81
+	batch=500, batch_loss=0.03, regularization_loss=0.00, total_batch_loss=0.03, batch_accuracy= 0.94
+	batch=1000, batch_loss=0.02, regularization_loss=0.00, total_batch_loss=0.02, batch_accuracy= 0.81
+	batch=1500, batch_loss=0.03, regularization_loss=0.00, total_batch_loss=0.03, batch_accuracy= 0.69
+	batch=2000, batch_loss=0.04, regularization_loss=0.00, total_batch_loss=0.04, batch_accuracy= 0.56
+	batch=2500, batch_loss=0.02, regularization_loss=0.00, total_batch_loss=0.02, batch_accuracy= 0.94
+	batch=3000, batch_loss=0.03, regularization_loss=0.00, total_batch_loss=0.03, batch_accuracy= 0.88
+	batch=3374, batch_loss=0.03, regularization_loss=0.00, total_batch_loss=0.03, batch_accuracy= 0.81
+training_loss=0.03, training_accuracy= 0.75
+Validation: val_loss=0.03, val_accuracy=0.76

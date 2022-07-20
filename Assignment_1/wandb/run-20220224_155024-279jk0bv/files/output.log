@@ -1,0 +1,4 @@
+Create sweep with ID: 43bgq23e
+Sweep URL: https://wandb.ai/cookie303/Assignment1/sweeps/43bgq23e
+[34m[1mwandb[39m[22m: [33mWARNING[39m Ignored wandb.init() arg project when running a sweep.
+[34m[1mwandb[39m[22m: [33mWARNING[39m Ignored wandb.init() arg entity when running a sweep.

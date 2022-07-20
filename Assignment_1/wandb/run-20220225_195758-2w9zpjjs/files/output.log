@@ -1,0 +1,13 @@
+
+epoch=1
+Traceback (most recent call last):
+  File "/home/sandip/Desktop/DL/Assignment 1/Test.py", line 103, in <module>
+    model.train(X, y_train_one_hot, epochs=10, batch_size=16, validation_data=(X_val, y_val_one_hot), print_mini_batch=True,
+  File "/home/sandip/Desktop/DL/Assignment 1/NN/Model.py", line 118, in train
+    output = self.forward(batch_X)
+  File "/home/sandip/Desktop/DL/Assignment 1/NN/Model.py", line 67, in forward
+    layer.forward(layer.previous.layer_outputs)
+  File "/home/sandip/Desktop/DL/Assignment 1/NN/Layer/Linear.py", line 45, in forward
+    self.layer_outputs = np.dot(layer_inputs, self.weights) + self.biases
+  File "<__array_function__ internals>", line 5, in dot
+TypeError: unsupported operand type(s) for *: 'float' and 'NoneType'

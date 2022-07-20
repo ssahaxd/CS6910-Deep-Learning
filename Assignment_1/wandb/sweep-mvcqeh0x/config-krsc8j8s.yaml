@@ -1,0 +1,10 @@
+wandb_version: 1
+
+batch_size:
+  value: 64
+num_hidden_neurons:
+  value: 32
+num_layers:
+  value: 5
+weight_decay:
+  value: 0.0005

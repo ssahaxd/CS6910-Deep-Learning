@@ -1,0 +1,186 @@
+2022-02-24 16:03:06,206 INFO    Thread-182:534558 [wandb_setup.py:_flush():75] Loading settings from /home/sandip/.config/wandb/settings
+2022-02-24 16:03:06,207 INFO    Thread-182:534558 [wandb_setup.py:_flush():75] Loading settings from wandb/settings
+2022-02-24 16:03:06,207 INFO    Thread-182:534558 [wandb_setup.py:_flush():75] Loading settings from environment variables: {'entity': 'cookie303', 'project': 'Assignment1', 'root_dir': '/home/sandip/Desktop/DL/Assignment 1', 'silent': 'true', 'run_id': '1u0byzwb', 'sweep_param_path': '/home/sandip/Desktop/DL/Assignment 1/wandb/sweep-d840rglg/config-1u0byzwb.yaml', 'sweep_id': 'd840rglg'}
+2022-02-24 16:03:06,208 INFO    Thread-182:534558 [wandb_setup.py:_flush():75] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2022-02-24 16:03:06,208 INFO    Thread-182:534558 [wandb_init.py:_log_setup():386] Logging user logs to /home/sandip/Desktop/DL/Assignment 1/wandb/run-20220224_160306-1u0byzwb/logs/debug.log
+2022-02-24 16:03:06,208 INFO    Thread-182:534558 [wandb_init.py:_log_setup():387] Logging internal logs to /home/sandip/Desktop/DL/Assignment 1/wandb/run-20220224_160306-1u0byzwb/logs/debug-internal.log
+2022-02-24 16:03:06,208 INFO    Thread-182:534558 [wandb_init.py:init():420] calling init triggers
+2022-02-24 16:03:06,208 INFO    Thread-182:534558 [wandb_init.py:init():425] wandb.init called with sweep_config: {'activation': 'ReLU', 'batch_size': 16, 'epochs': 5, 'initializer': 'random', 'learning_rate': 0.001, 'num_hidden_neurons': 32, 'num_layers': 3, 'optimizer': 'Adam', 'weight_decay': 0}
+config: {'epochs': 5, 'num_hidden_layers': 3, 'num_hidden_neurons': 32, 'weight_decay': 0, 'learning_rate': 0.001, 'optimizer': 'SGD', 'batch_size': 16, 'activation': 'Tanh', 'initializer': 'xavier', 'loss': 'CategoricalCrossEntropy'}
+2022-02-24 16:03:06,208 INFO    Thread-182:534558 [wandb_init.py:init():471] starting backend
+2022-02-24 16:03:06,209 INFO    Thread-182:534558 [backend.py:_multiprocessing_setup():99] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2022-02-24 16:03:06,210 INFO    Thread-182:534558 [backend.py:ensure_launched():219] starting backend process...
+2022-02-24 16:03:06,218 INFO    Thread-182:534558 [backend.py:ensure_launched():224] started backend process with pid: 538222
+2022-02-24 16:03:06,219 INFO    Thread-182:534558 [wandb_init.py:init():480] backend started and connected
+2022-02-24 16:03:06,230 INFO    Thread-182:534558 [wandb_run.py:_config_callback():966] config_cb None None {'activation': 'ReLU', 'batch_size': 16, 'epochs': 5, 'initializer': 'random', 'learning_rate': 0.001, 'num_hidden_neurons': 32, 'num_layers': 3, 'optimizer': 'Adam', 'weight_decay': 0}
+2022-02-24 16:03:06,233 INFO    Thread-182:534558 [wandb_run.py:_label_probe_notebook():921] probe notebook
+2022-02-24 16:03:06,234 INFO    Thread-182:534558 [wandb_init.py:init():550] updated telemetry
+2022-02-24 16:03:06,258 INFO    Thread-182:534558 [wandb_init.py:init():581] communicating current version
+2022-02-24 16:03:06,868 INFO    Thread-182:534558 [wandb_init.py:init():586] got version response 
+2022-02-24 16:03:06,868 INFO    Thread-182:534558 [wandb_init.py:init():596] communicating run to backend with 30 second timeout
+2022-02-24 16:03:07,180 INFO    Thread-182:534558 [wandb_init.py:init():624] starting run threads in backend
+2022-02-24 16:03:11,837 INFO    Thread-182:534558 [wandb_run.py:_console_start():1827] atexit reg
+2022-02-24 16:03:11,838 INFO    Thread-182:534558 [wandb_run.py:_redirect():1701] redirect: SettingsConsole.WRAP
+2022-02-24 16:03:11,838 INFO    Thread-182:534558 [wandb_run.py:_redirect():1738] Wrapping output streams.
+2022-02-24 16:03:11,839 INFO    Thread-182:534558 [wandb_run.py:_redirect():1762] Redirects installed.
+2022-02-24 16:03:11,839 INFO    Thread-182:534558 [wandb_init.py:init():651] run started, returning control to user process
+2022-02-24 16:03:14,345 INFO    Thread-182:534558 [wandb_run.py:finish():1468] finishing run cookie303/Assignment1/1u0byzwb
+2022-02-24 16:03:14,346 INFO    Thread-182:534558 [wandb_run.py:_atexit_cleanup():1797] got exitcode: 1
+2022-02-24 16:03:14,348 INFO    Thread-182:534558 [wandb_run.py:_restore():1769] restore
+2022-02-24 16:03:15,350 INFO    Thread-182:534558 [wandb_run.py:_wait_for_finish():1929] got exit ret: file_counts {
+  wandb_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 753
+  total_bytes: 753
+}
+
+2022-02-24 16:03:15,706 INFO    Thread-182:534558 [wandb_run.py:_wait_for_finish():1929] got exit ret: file_counts {
+  wandb_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 753
+  total_bytes: 753
+}
+
+2022-02-24 16:03:16,199 INFO    Thread-182:534558 [wandb_run.py:_wait_for_finish():1929] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 753
+  total_bytes: 21296
+}
+
+2022-02-24 16:03:16,304 INFO    Thread-182:534558 [wandb_run.py:_wait_for_finish():1929] got exit ret: file_counts {
+  wandb_count: 6
+}
+pusher_stats {
+  uploaded_bytes: 753
+  total_bytes: 21322
+}
+
+2022-02-24 16:03:16,408 INFO    Thread-182:534558 [wandb_run.py:_wait_for_finish():1929] got exit ret: file_counts {
+  wandb_count: 6
+}
+pusher_stats {
+  uploaded_bytes: 753
+  total_bytes: 21322
+}
+
+2022-02-24 16:03:16,511 INFO    Thread-182:534558 [wandb_run.py:_wait_for_finish():1929] got exit ret: file_counts {
+  wandb_count: 6
+}
+pusher_stats {
+  uploaded_bytes: 753
+  total_bytes: 21322
+}
+
+2022-02-24 16:03:16,615 INFO    Thread-182:534558 [wandb_run.py:_wait_for_finish():1929] got exit ret: file_counts {
+  wandb_count: 6
+}
+pusher_stats {
+  uploaded_bytes: 753
+  total_bytes: 21322
+}
+
+2022-02-24 16:03:16,719 INFO    Thread-182:534558 [wandb_run.py:_wait_for_finish():1929] got exit ret: file_counts {
+  wandb_count: 6
+}
+pusher_stats {
+  uploaded_bytes: 15573
+  total_bytes: 21322
+}
+
+2022-02-24 16:03:16,825 INFO    Thread-182:534558 [wandb_run.py:_wait_for_finish():1929] got exit ret: file_counts {
+  wandb_count: 6
+}
+pusher_stats {
+  uploaded_bytes: 15599
+  total_bytes: 21322
+}
+
+2022-02-24 16:03:16,930 INFO    Thread-182:534558 [wandb_run.py:_wait_for_finish():1929] got exit ret: file_counts {
+  wandb_count: 6
+}
+pusher_stats {
+  uploaded_bytes: 15599
+  total_bytes: 21322
+}
+
+2022-02-24 16:03:17,034 INFO    Thread-182:534558 [wandb_run.py:_wait_for_finish():1929] got exit ret: file_counts {
+  wandb_count: 6
+}
+pusher_stats {
+  uploaded_bytes: 21322
+  total_bytes: 21322
+}
+
+2022-02-24 16:03:17,140 INFO    Thread-182:534558 [wandb_run.py:_wait_for_finish():1929] got exit ret: file_counts {
+  wandb_count: 6
+}
+pusher_stats {
+  uploaded_bytes: 21322
+  total_bytes: 21322
+}
+
+2022-02-24 16:03:17,246 INFO    Thread-182:534558 [wandb_run.py:_wait_for_finish():1929] got exit ret: file_counts {
+  wandb_count: 6
+}
+pusher_stats {
+  uploaded_bytes: 21322
+  total_bytes: 21322
+}
+
+2022-02-24 16:03:17,350 INFO    Thread-182:534558 [wandb_run.py:_wait_for_finish():1929] got exit ret: file_counts {
+  wandb_count: 6
+}
+pusher_stats {
+  uploaded_bytes: 21322
+  total_bytes: 21322
+}
+
+2022-02-24 16:03:17,454 INFO    Thread-182:534558 [wandb_run.py:_wait_for_finish():1929] got exit ret: file_counts {
+  wandb_count: 6
+}
+pusher_stats {
+  uploaded_bytes: 21322
+  total_bytes: 21322
+}
+
+2022-02-24 16:03:17,558 INFO    Thread-182:534558 [wandb_run.py:_wait_for_finish():1929] got exit ret: file_counts {
+  wandb_count: 6
+}
+pusher_stats {
+  uploaded_bytes: 21322
+  total_bytes: 21322
+}
+
+2022-02-24 16:03:17,662 INFO    Thread-182:534558 [wandb_run.py:_wait_for_finish():1929] got exit ret: file_counts {
+  wandb_count: 6
+}
+pusher_stats {
+  uploaded_bytes: 21322
+  total_bytes: 21322
+}
+
+2022-02-24 16:03:18,262 INFO    Thread-182:534558 [wandb_run.py:_wait_for_finish():1929] got exit ret: file_counts {
+  wandb_count: 6
+}
+pusher_stats {
+  uploaded_bytes: 21322
+  total_bytes: 21322
+}
+
+2022-02-24 16:03:18,894 INFO    Thread-182:534558 [wandb_run.py:_wait_for_finish():1929] got exit ret: done: true
+exit_result {
+}
+file_counts {
+  wandb_count: 6
+}
+pusher_stats {
+  uploaded_bytes: 21322
+  total_bytes: 21322
+}
+local_info {
+}
+

@@ -1,0 +1,31 @@
+
+epoch=1
+training_loss=0.90, training_accuracy= 0.79
+Validation: val_loss=0.88, val_accuracy=0.81
+epoch=2
+training_loss=1.00, training_accuracy= 0.82
+Validation: val_loss=1.11, val_accuracy=0.81
+epoch=3
+training_loss=0.99, training_accuracy= 0.82
+Validation: val_loss=1.18, val_accuracy=0.83
+epoch=4
+training_loss=1.14, training_accuracy= 0.83
+Validation: val_loss=1.55, val_accuracy=0.80
+epoch=5
+training_loss=1.15, training_accuracy= 0.83
+Validation: val_loss=1.51, val_accuracy=0.81
+epoch=6
+training_loss=1.09, training_accuracy= 0.84
+Validation: val_loss=1.22, val_accuracy=0.82
+epoch=7
+training_loss=1.17, training_accuracy= 0.84
+Validation: val_loss=1.71, val_accuracy=0.80
+epoch=8
+training_loss=1.16, training_accuracy= 0.84
+Validation: val_loss=1.20, val_accuracy=0.83
+epoch=9
+training_loss=1.09, training_accuracy= 0.84
+Validation: val_loss=1.30, val_accuracy=0.83
+epoch=10
+training_loss=1.05, training_accuracy= 0.85
+Validation: val_loss=1.25, val_accuracy=0.84

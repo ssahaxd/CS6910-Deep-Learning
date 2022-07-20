@@ -1,0 +1,24 @@
+{
+    "os": "Linux-5.13.0-28-generic-x86_64-with-glibc2.31",
+    "python": "3.9.7",
+    "heartbeatAt": "2022-02-25T12:34:01.865724",
+    "startedAt": "2022-02-25T12:33:59.422133",
+    "docker": null,
+    "cpu_count": 6,
+    "cuda": null,
+    "args": [
+        "-f",
+        "/home/sandip/.local/share/jupyter/runtime/kernel-18a36089-e136-42ef-9f3c-aa048fe5c797.json"
+    ],
+    "state": "running",
+    "program": "Assignment_1_2022-MNIST.ipynb",
+    "root": "/home/sandip/Desktop/DL/Assignment 1",
+    "git": {
+        "remote": null,
+        "commit": "344da1ad15c806eafa6e28171ada0b716378d813"
+    },
+    "email": "sandipsmoto@gmail.com",
+    "host": "jugaad-OptiPlex-5060",
+    "username": "sandip",
+    "executable": "/home/sandip/anaconda3/bin/python"
+}

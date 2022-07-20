@@ -1,0 +1,79 @@
+2022-02-25 12:10:02,606 INFO    Thread-141:679681 [wandb_setup.py:_flush():75] Loading settings from /home/sandip/.config/wandb/settings
+2022-02-25 12:10:02,606 INFO    Thread-141:679681 [wandb_setup.py:_flush():75] Loading settings from wandb/settings
+2022-02-25 12:10:02,606 INFO    Thread-141:679681 [wandb_setup.py:_flush():75] Loading settings from environment variables: {'entity': 'cookie303', 'project': 'Assignment1', 'root_dir': '/home/sandip/Desktop/DL/Assignment 1', 'run_id': '91g75hxh', 'sweep_param_path': '/home/sandip/Desktop/DL/Assignment 1/wandb/sweep-9ki1mxqn/config-91g75hxh.yaml', 'sweep_id': '9ki1mxqn'}
+2022-02-25 12:10:02,606 INFO    Thread-141:679681 [wandb_setup.py:_flush():75] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2022-02-25 12:10:02,606 INFO    Thread-141:679681 [wandb_init.py:_log_setup():386] Logging user logs to /home/sandip/Desktop/DL/Assignment 1/wandb/run-20220225_121002-91g75hxh/logs/debug.log
+2022-02-25 12:10:02,606 INFO    Thread-141:679681 [wandb_init.py:_log_setup():387] Logging internal logs to /home/sandip/Desktop/DL/Assignment 1/wandb/run-20220225_121002-91g75hxh/logs/debug-internal.log
+2022-02-25 12:10:02,606 INFO    Thread-141:679681 [wandb_init.py:_jupyter_setup():336] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x7ff6b0f5c7f0>
+2022-02-25 12:10:02,607 INFO    Thread-141:679681 [wandb_init.py:init():420] calling init triggers
+2022-02-25 12:10:02,607 INFO    Thread-141:679681 [wandb_init.py:init():425] wandb.init called with sweep_config: {'activation': 'ReLU', 'batch_size': 32, 'epochs': 5, 'initializer': 'he', 'learning_rate': 0.0001, 'num_hidden_neurons': 128, 'num_layers': 5, 'optimizer': 'Nadam', 'weight_decay': 0}
+config: {'epochs': 5, 'num_layers': 3, 'num_hidden_neurons': 32, 'weight_decay': 0, 'learning_rate': 0.001, 'optimizer': 'SGD', 'batch_size': 16, 'activation': 'Tanh', 'initializer': 'xavier'}
+2022-02-25 12:10:02,607 INFO    Thread-141:679681 [wandb_init.py:init():471] starting backend
+2022-02-25 12:10:02,607 INFO    Thread-141:679681 [backend.py:_multiprocessing_setup():99] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2022-02-25 12:10:02,608 INFO    Thread-141:679681 [backend.py:ensure_launched():219] starting backend process...
+2022-02-25 12:10:02,615 INFO    Thread-141:679681 [backend.py:ensure_launched():224] started backend process with pid: 680892
+2022-02-25 12:10:02,616 INFO    Thread-141:679681 [wandb_init.py:init():480] backend started and connected
+2022-02-25 12:10:02,627 INFO    Thread-141:679681 [wandb_run.py:_config_callback():966] config_cb None None {'activation': 'ReLU', 'batch_size': 32, 'epochs': 5, 'initializer': 'he', 'learning_rate': 0.0001, 'num_hidden_neurons': 128, 'num_layers': 5, 'optimizer': 'Nadam', 'weight_decay': 0}
+2022-02-25 12:10:02,630 INFO    Thread-141:679681 [wandb_run.py:_label_probe_notebook():921] probe notebook
+2022-02-25 12:10:02,631 INFO    Thread-141:679681 [wandb_init.py:init():550] updated telemetry
+2022-02-25 12:10:02,652 INFO    Thread-141:679681 [wandb_init.py:init():581] communicating current version
+2022-02-25 12:10:03,272 INFO    Thread-141:679681 [wandb_init.py:init():586] got version response 
+2022-02-25 12:10:03,273 INFO    Thread-141:679681 [wandb_init.py:init():596] communicating run to backend with 30 second timeout
+2022-02-25 12:10:03,636 INFO    Thread-141:679681 [wandb_init.py:init():624] starting run threads in backend
+2022-02-25 12:10:08,443 INFO    Thread-141:679681 [wandb_run.py:_console_start():1827] atexit reg
+2022-02-25 12:10:08,443 INFO    Thread-141:679681 [wandb_run.py:_redirect():1701] redirect: SettingsConsole.WRAP
+2022-02-25 12:10:08,443 INFO    Thread-141:679681 [wandb_run.py:_redirect():1738] Wrapping output streams.
+2022-02-25 12:10:08,444 INFO    Thread-141:679681 [wandb_run.py:_redirect():1762] Redirects installed.
+2022-02-25 12:10:08,444 INFO    Thread-141:679681 [wandb_init.py:init():651] run started, returning control to user process
+2022-02-25 12:10:36,089 INFO    Thread-141:679681 [wandb_run.py:finish():1468] finishing run cookie303/Assignment1/91g75hxh
+2022-02-25 12:10:36,090 INFO    Thread-141:679681 [jupyter.py:save_history():429] not saving jupyter history
+2022-02-25 12:10:36,090 INFO    Thread-141:679681 [jupyter.py:save_ipynb():374] not saving jupyter notebook
+2022-02-25 12:10:36,090 INFO    Thread-141:679681 [wandb_init.py:_jupyter_teardown():318] cleaning up jupyter logic
+2022-02-25 12:10:36,090 INFO    Thread-141:679681 [wandb_run.py:_atexit_cleanup():1797] got exitcode: 0
+2022-02-25 12:10:36,093 INFO    Thread-141:679681 [wandb_run.py:_restore():1769] restore
+2022-02-25 12:10:36,991 INFO    Thread-141:679681 [wandb_run.py:_wait_for_finish():1929] got exit ret: file_counts {
+  wandb_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 753
+  total_bytes: 753
+}
+
+2022-02-25 12:10:37,308 INFO    Thread-141:679681 [wandb_run.py:_wait_for_finish():1929] got exit ret: file_counts {
+  wandb_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 753
+  total_bytes: 753
+}
+
+2022-02-25 12:10:37,672 INFO    Thread-141:679681 [wandb_run.py:_wait_for_finish():1929] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 753
+  total_bytes: 21650
+}
+
+2022-02-25 12:10:37,776 INFO    Thread-141:679681 [wandb_run.py:_wait_for_finish():1929] got exit ret: file_counts {
+  wandb_count: 6
+}
+pusher_stats {
+  uploaded_bytes: 753
+  total_bytes: 21943
+}
+
+2022-02-25 12:10:37,871 INFO    MainThread:679681 [wandb_run.py:finish():1468] finishing run cookie303/Assignment1/91g75hxh
+2022-02-25 12:10:37,871 INFO    MainThread:679681 [jupyter.py:save_history():429] not saving jupyter history
+2022-02-25 12:10:37,872 INFO    MainThread:679681 [jupyter.py:save_ipynb():374] not saving jupyter notebook
+2022-02-25 12:10:37,872 INFO    MainThread:679681 [wandb_init.py:_jupyter_teardown():318] cleaning up jupyter logic
+2022-02-25 12:10:37,877 INFO    Thread-141:679681 [wandb_run.py:_restore():1769] restore
+2022-02-25 12:10:40,430 ERROR   Thread-141:679681 [wandb_run.py:_atexit_cleanup():1815] Problem finishing run
+Traceback (most recent call last):
+  File "/home/sandip/anaconda3/lib/python3.9/site-packages/wandb/sdk/wandb_run.py", line 1805, in _atexit_cleanup
+    self._on_finish()
+  File "/home/sandip/anaconda3/lib/python3.9/site-packages/wandb/sdk/wandb_run.py", line 1988, in _on_finish
+    self._poll_exit_response = self._wait_for_finish()
+  File "/home/sandip/anaconda3/lib/python3.9/site-packages/wandb/sdk/wandb_run.py", line 1938, in _wait_for_finish
+    time.sleep(0.1)
+Exception

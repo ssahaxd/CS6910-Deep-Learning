@@ -1,0 +1,28 @@
+epoch=1
+	batch=0, batch_loss=6.17, regularization_loss=0.00, total_batch_loss=6.17, batch_accuracy= 0.12
+	batch=500, batch_loss=0.30, regularization_loss=0.00, total_batch_loss=0.30, batch_accuracy= 0.88
+	batch=1000, batch_loss=0.12, regularization_loss=0.00, total_batch_loss=0.12, batch_accuracy= 1.00
+	batch=1500, batch_loss=0.60, regularization_loss=0.00, total_batch_loss=0.60, batch_accuracy= 0.75
+	batch=2000, batch_loss=0.71, regularization_loss=0.00, total_batch_loss=0.71, batch_accuracy= 0.69
+	batch=2500, batch_loss=0.08, regularization_loss=0.00, total_batch_loss=0.08, batch_accuracy= 1.00
+	batch=3000, batch_loss=0.27, regularization_loss=0.00, total_batch_loss=0.27, batch_accuracy= 0.94
+	batch=3374, batch_loss=0.21, regularization_loss=0.00, total_batch_loss=0.21, batch_accuracy= 0.94
+training_loss=0.50, training_accuracy= 0.82
+Validation: val_loss=0.40, val_accuracy=0.86
+epoch=2
+	batch=0, batch_loss=0.25, regularization_loss=0.00, total_batch_loss=0.25, batch_accuracy= 0.94
+	batch=500, batch_loss=0.19, regularization_loss=0.00, total_batch_loss=0.19, batch_accuracy= 0.94
+	batch=1000, batch_loss=0.08, regularization_loss=0.00, total_batch_loss=0.08, batch_accuracy= 1.00
+	batch=1500, batch_loss=0.62, regularization_loss=0.00, total_batch_loss=0.62, batch_accuracy= 0.75
+	batch=2000, batch_loss=0.64, regularization_loss=0.00, total_batch_loss=0.64, batch_accuracy= 0.81
+	batch=2500, batch_loss=0.07, regularization_loss=0.00, total_batch_loss=0.07, batch_accuracy= 1.00
+	batch=3000, batch_loss=0.20, regularization_loss=0.00, total_batch_loss=0.20, batch_accuracy= 0.94
+Traceback (most recent call last):
+  File "/home/sandip/Desktop/DL/Assignment 1/Test.py", line 119, in <module>
+    wandb.log({"conf_mat": wandb.plot.confusion_matrix(probs=prediction_probs,
+  File "/home/sandip/anaconda3/lib/python3.9/site-packages/wandb/plot/confusion_matrix.py", line 41, in confusion_matrix
+    assert (probs is None or preds is None) and not (
+AssertionError: Must provide probabilties or predictions but not both to confusion matrix
+	batch=3374, batch_loss=0.18, regularization_loss=0.00, total_batch_loss=0.18, batch_accuracy= 0.94
+training_loss=0.36, training_accuracy= 0.87
+Validation: val_loss=0.36, val_accuracy=0.87
